@@ -4,22 +4,24 @@ body {
 }
 
 .main{
-    padding: 500px;
+    margin-left: 474px;
+    margin-right: 531px;
 }
 .add, .show {
     background-color: hsl(0, 0%, 100%); 
     margin: 40px;
+    border-radius: 7px;
 }
 hr{
     border-top: 1px dotted #c7c7c7;
 }
 span{
     color: #333333;
-    padding-left: 21px;
+    padding-left: 46px;
 }
 .form{
     padding-top: 23px;
-    padding-bottom: 45px;
+    padding-bottom: 28px;
 }
 ::placeholder {
     color: #c7c7c7;
@@ -30,30 +32,42 @@ span{
     background-color: #4d59a1;
     color: white;
     border-radius: 5px;
-    width: 85px;
-    height: 28px;
+    width: 90px;
+    height: 39px;
 }
-.name, .phone{
-    padding: 6px;
-    padding-left: 8px;
-    padding-right: 109px;
-    padding-bottom: 10px;
-    margin-left: 32px;
+.phone{
+    margin-left: 45px;
+    font-size: 13px;
+    color: #878383;
 }
-/* .Inputname, .Inputphone{
-    padding-left: 12px;
-    padding-bottom: 7px;
-    padding-right: 112px;
-    margin-left: 22px;
-    border-radius: 3px;
-} */
+.name{
+    margin-left: 47px;
+    margin-bottom: -11px;
+}
 input {
-    border-color: #c7c7c7;
-    height: 32px;
-    width: 167px;
-    padding-left: 131px;
+    border-color: #dcd4d4;
+    height: 48px;
+    width: 302px;
+    padding-left: 17px;
     margin: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 12px;
+}
+.button{
+    padding-left: 280px;
+    padding-top: 14px;
 }
 .head{
-    padding-top: 15px;
+    padding-bottom: 7px;
+}
+.head_show{
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+.delete{
+    border: none;
+    background-color: white;
+    color: #aaa3a3;
 }

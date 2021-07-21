@@ -20,11 +20,11 @@ include 'assets/header.php';
                     <span>Добавить контакт</span>
                 </div>
                 <hr>
-                <div class="name">
-                    <input type="text" class="Inputname" name="name" id="name" placeholder="Имя" required="">
+                <div>
+                    <input type="text"  name="name" id="name" placeholder="Имя" required="">
                 </div>
-                <div class="phone">
-                    <input type="text" class="Inputphone" name="phone" id="phone" placeholder="Телефон" required="">
+                <div>
+                    <input type="text" name="phone" id="phone" placeholder="Телефон" required="">
                 </div>
                 <div class="button">
                     <button type="submit" class="" id="submit">Добавить</button>
@@ -32,16 +32,17 @@ include 'assets/header.php';
             </form>
         </div>
         <div class="show">
-            <div class="head">
+            <div class="head_show">
                 <span>Список контактов</span>
             </div>
             <hr>
             <?php if(!empty($contacts)){ ?>
                 <?php foreach ($contacts as $key => $value) {?>            
                 <div class="head">
-                    <p><?=$value->full_name;?></p>
-                    <p><?=$value->phone;?></p>
-                    <button type="submit" class="delete"  value="<?=$value->id;?>">x</button>
+                    <p class="name"><?=$value->full_name;?>
+                        <button type="submit" class="delete"  value="<?=$value->id;?>">x</button>
+                    </p>
+                    <p class="phone"><?=$value->phone;?></p>
                 </div>
                 <hr>
                 <?php } ?>
