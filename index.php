@@ -78,9 +78,6 @@ include 'assets/header.php';
                         }
                     });
             });
-            // $.get("http://localhost:8000", function(response){
-            //     console.log(response);
-            // });
         }); 
 </script>
 </body>
