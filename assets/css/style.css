@@ -4,16 +4,19 @@ body {
 }
 
 .main{
-    margin-left: 474px;
-    margin-right: 545px;
+    width: 26%;
+    margin-left: 33%;
 }
 .add, .show {
-    background-color: hsl(0, 0%, 100%); 
-    margin: 40px;
+    background-color: hsl(0, 0%, 100%);
+    
     border-radius: 7px;
+    margin-top: 11%;
+    margin-right: -7%;
 }
 hr{
     border-top: 1px dotted #c7c7c7;
+    margin-bottom: -7px;
 }
 span{
     color: #333333;
@@ -53,7 +56,7 @@ input {
     border-style: solid;
     border-radius: 5px;
     margin-left: 45px;
-    margin-top: 12px;
+    margin-top: 34px;
 }
 .button{
     padding-left: 280px;

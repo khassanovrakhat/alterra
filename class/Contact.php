@@ -10,6 +10,11 @@ class Contact{
         $get = $db->select("SELECT id, full_name, phone FROM contact");
         return $get;
     }
+    public function getContactJson(){
+        $db = new DB;
+        $get = $db->select("SELECT id, full_name, phone FROM contact");
+        return json_encode($get);
+    }
     public function deleteContact($id){
         $db = new DB;
         $delete = $db->delete("DELETE FROM contact WHERE id = $id");
