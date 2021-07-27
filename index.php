@@ -67,6 +67,7 @@ if(isset($_POST['id'])) {
                     data:  {name:name, phone:phone},
                     success: function(response) {
                         $("#show_contact").load('init.php');
+                        document.getElementById("formData").reset();
                     }
                 });
             }
